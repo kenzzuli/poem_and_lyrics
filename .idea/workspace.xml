@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40e1a581-9347-47e5-849d-64471c7042ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="40e1a581-9347-47e5-849d-64471c7042ed" name="Default Changelist" comment="minor revision">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/poems.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/poems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference/tang_poems.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference/tang_poems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/clean_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/clean_cn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,12 +125,24 @@
       <updated>1622686426593</updated>
       <workItem from="1622686427670" duration="2743000" />
       <workItem from="1622716741258" duration="1954000" />
-      <workItem from="1622718751102" duration="4673000" />
+      <workItem from="1622718751102" duration="5470000" />
     </task>
+    <task id="LOCAL-00001" summary="poem and lyric generator">
+      <created>1622725980698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622725980698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="poem and lyric generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="poem and lyric generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,6 +163,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/poem$poems.coverage" NAME="poems Coverage Results" MODIFIED="1622717110804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inference" />
     <SUITE FILE_PATH="coverage/poem$tang_poems.coverage" NAME="tang_poems Coverage Results" MODIFIED="1622717158528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inference" />
-    <SUITE FILE_PATH="coverage/poem$main.coverage" NAME="main Coverage Results" MODIFIED="1622719481667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/poem$main.coverage" NAME="main Coverage Results" MODIFIED="1622725850478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
   </component>
 </project>

@@ -103,6 +103,7 @@ def gen_poem(begin_word):
         # checkpoint = tf.train.latest_checkpoint(FLAGS.checkpoints_dir)
         checkpoint = tf.train.latest_checkpoint('./model/')
         # saver.restore(sess, checkpoint)
+        # 在这里选择使用的模型
         saver.restore(sess, './model/-6')
 
         x = np.array([list(map(word_int_map.get, start_token))])
@@ -148,3 +149,6 @@ def main(is_train):
 
 if __name__ == '__main__':
     tf.app.run()
+
+# 水客还家南年客，鸭时映绿色饶春。
+# 暂别行逢云雨见，百年不恨欲如何。
